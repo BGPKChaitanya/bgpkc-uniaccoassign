@@ -1,0 +1,52 @@
+.home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-outer {
+  width: 90vw;
+  margin: auto;
+}
+.home-text {
+  margin: 15px;
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 700;
+}
+.home-arrow {
+  border: 2px solid black;
+  border-radius: 50px;
+  padding: 10px;
+  margin: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  border-color: #d8d4d4;
+}
+
+.arrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter-three {
+  border-right: solid;
+  border-width: 1px;
+  border-color: grey;
+}
+.filter-button {
+  border-radius: 20px;
+  padding: 10px;
+  background-color: transparent;
+  border-width: 1px;
+  border-color: #d8d4d4;
+  margin-right: 15px;
+}
+.filter-button:hover {
+  border-width: bold;
+  border-color: #000;
+  cursor: pointer;
+}/*# sourceMappingURL=index.css.map */
