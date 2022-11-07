@@ -39,17 +39,14 @@ const buttonData = [
 ]
 
 const ButtonSlider = () => {
-  const SampleNextArrow = () => <RiArrowLeftSLine style={{color: '#000000'}} />
-
   const settings = {
     dots: false,
     infinite: true,
     speed: 500,
-
     slidesToShow: 8,
     slidesToScroll: 3,
     variableWidth: true,
-    nextArrow: <SampleNextArrow />,
+    nextArrow: <RiArrowLeftSLine className="home-arrow" />,
     prevArrow: <RiArrowRightSLine className="home-arrow" />,
     responsive: [
       {
