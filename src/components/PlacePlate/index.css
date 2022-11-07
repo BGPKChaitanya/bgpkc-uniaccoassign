@@ -23,4 +23,13 @@
 
 .price {
   font-weight: bold;
+}
+
+.hover-player {
+  height: 250px;
+  border-radius: 15px;
+}
+
+.player-container {
+  border-radius: 15px;
 }/*# sourceMappingURL=index.css.map */

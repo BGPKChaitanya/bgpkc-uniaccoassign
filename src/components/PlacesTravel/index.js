@@ -9,7 +9,8 @@ import './index.css'
 const data = [
   {
     id: 1,
-    VideoURL: 'https://www.youtube.com/watch?v=MtCMtC50gwY',
+    VideoURL:
+      'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
     VideoImage:
       'https://res.cloudinary.com/dwp6uyiir/image/upload/v1667711743/sean-oulashin-KMn4VEeEPR8-unsplash_lfagip.jpg',
     Rating: 4.99,
@@ -21,7 +22,8 @@ const data = [
 
   {
     id: 2,
-    VideoURL: 'https://www.youtube.com/watch?v=UDnZT-w-ul4',
+    VideoURL:
+      'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
     VideoImage:
       'https://res.cloudinary.com/dwp6uyiir/image/upload/v1667713786/emrecan-arik-daV6jGXMuM8-unsplash_vdbitq.jpg',
     Rating: 5.0,
@@ -33,7 +35,8 @@ const data = [
 
   {
     id: 3,
-    VideoURL: 'https://www.youtube.com/watch?v=paUZs41-pvY',
+    VideoURL:
+      'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
     VideoImage:
       'https://res.cloudinary.com/dwp6uyiir/image/upload/v1667714093/austin-distel-owrjMvuCrEQ-unsplash_yhlwyy.jpg',
     Rating: 4.97,
@@ -45,7 +48,8 @@ const data = [
 
   {
     id: 4,
-    VideoURL: 'https://www.youtube.com/watch?v=1aqjDQXV2gI',
+    VideoURL:
+      'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4',
     VideoImage:
       'https://res.cloudinary.com/dwp6uyiir/image/upload/v1667714417/austin-distel-VVqstzTKDCk-unsplash_xe9z86.jpg',
     Rating: 4.63,
@@ -57,7 +61,8 @@ const data = [
 
   {
     id: 5,
-    VideoURL: 'https://www.youtube.com/watch?v=KzX9kJumv9A',
+    VideoURL:
+      'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4',
     VideoImage:
       'https://res.cloudinary.com/dwp6uyiir/image/upload/v1667715066/karsten-winegeart-cNTWUoh3mdw-unsplash_wxzmfa.jpg',
     Rating: 4.75,
@@ -69,7 +74,8 @@ const data = [
 
   {
     id: 6,
-    VideoURL: 'https://www.youtube.com/watch?v=JKT4n1rHV-0',
+    VideoURL:
+      'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
     VideoImage:
       'https://res.cloudinary.com/dwp6uyiir/image/upload/v1667715584/carlos-ibanez-oI141-aIwnQ-unsplash_agtimy.jpg',
     Rating: 4.91,
@@ -81,7 +87,8 @@ const data = [
 
   {
     id: 7,
-    VideoURL: 'https://www.youtube.com/watch?v=L5JORXmV_A0',
+    VideoURL:
+      'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4',
     VideoImage:
       'https://res.cloudinary.com/dwp6uyiir/image/upload/v1667716719/charisse-kenion-W6mdQYenu44-unsplash_o3jiqc.jpg',
     Rating: 4.91,
@@ -93,7 +100,8 @@ const data = [
 
   {
     id: 8,
-    VideoURL: 'https://www.youtube.com/watch?v=IuTDuvYr7f0',
+    VideoURL:
+      'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4',
     VideoImage:
       'https://res.cloudinary.com/dwp6uyiir/image/upload/v1667717212/sofia-monteiro-txgiC79ryVM-unsplash_zhjkvj.jpg',
     Rating: 4.97,
@@ -105,7 +113,8 @@ const data = [
 
   {
     id: 9,
-    VideoURL: 'https://www.youtube.com/watch?v=6KjOfVTX10Q',
+    VideoURL:
+      'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4',
     VideoImage:
       'https://res.cloudinary.com/dwp6uyiir/image/upload/v1667717558/surface-ZDVUNqe5aLo-unsplash_eo6al0.jpg',
     Rating: 4.86,
@@ -117,7 +126,8 @@ const data = [
 
   {
     id: 10,
-    VideoURL: 'https://www.youtube.com/watch?v=rETpXdTbAzo',
+    VideoURL:
+      'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4',
     VideoImage:
       'https://res.cloudinary.com/dwp6uyiir/image/upload/v1667717955/steven-roussel-2HBRHiZtWZY-unsplash_htdmq7.jpg',
     Rating: 4.82,
@@ -129,7 +139,8 @@ const data = [
 
   {
     id: 11,
-    VideoURL: 'https://www.youtube.com/watch?v=lepdqiCF-W8',
+    VideoURL:
+      'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4',
     VideoImage:
       'https://res.cloudinary.com/dwp6uyiir/image/upload/v1667718235/farsai-chaikulngamdee-oZSDI44GwKU-unsplash_w1w8ei.jpg',
     Rating: 4.94,
@@ -141,7 +152,8 @@ const data = [
 
   {
     id: 12,
-    VideoURL: 'https://www.youtube.com/watch?v=zNx5F8htBvo',
+    VideoURL:
+      'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4',
     VideoImage:
       'https://res.cloudinary.com/dwp6uyiir/image/upload/v1667718517/wolfgang-hasselmann-UZ3T2F4d_w8-unsplash_zi2rju.jpg',
     Rating: 4.95,

@@ -1,15 +1,18 @@
 import HoverVideoPlayer from 'react-hover-video-player'
 import {AiFillStar} from 'react-icons/ai'
+
 import './index.css'
 
 const PlacePlate = props => {
   const {each} = props
-  const {VideoImage, Rating, Views, City, Description, Price} = each
+  const {VideoURL, VideoImage, Rating, Views, City, Description, Price} = each
 
   return (
     <div className="player">
       <HoverVideoPlayer
-        videoSrc="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+        videoSrc={VideoURL}
+        className="hover-player"
+        sizingMode="container"
         pausedOverlay={
           // eslint-disable-next-line jsx-a11y/img-redundant-alt
           <img
@@ -19,7 +22,6 @@ const PlacePlate = props => {
               width: '100%',
               height: '100%',
               objectFit: 'cover',
-              borderRadius: '15px',
             }}
           />
         }

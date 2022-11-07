@@ -16,10 +16,9 @@
 }
 .home-arrow {
   border: 2px solid black;
-  border-radius: 50px;
-  padding: 10px;
+  border-radius: 75px;
   margin: 5px;
-  font-size: 15px;
+  padding: 8px 8px 5px 8px;
   font-weight: 600;
   cursor: pointer;
   border-color: #d8d4d4;
